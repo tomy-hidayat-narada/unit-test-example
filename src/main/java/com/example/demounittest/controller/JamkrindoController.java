@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/jamkrindo")
 public class JamkrindoController {
-    @GetMapping("/tdd")
+    @GetMapping("/greetings")
     public ResponseEntity<String> greetings(
             @RequestParam("name")String name
     ){
